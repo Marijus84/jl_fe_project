@@ -1,0 +1,45 @@
+@use '../../../const/index.scss' as screen;
+
+.heroContainer {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px
+}
+
+.subheader {
+  font-size: 20px;
+  margin-bottom: 2em;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(15%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.slideInRight {
+  animation:
+    slideInRight 1.5s,
+    fadeIn 2s;
+}
+
+@media only screen and (min-width: screen.$screen-xxl) {
+  .subheader {
+    font-size: 24px;
+  }
+}

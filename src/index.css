@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'dp';
+  src: url('/assets/fonts/dp-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dp-medium';
+  src: url('/assets/fonts/dp-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dp-bold';
+  src: url('/assets/fonts/dp-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dp-italic';
+  src: url('/assets/fonts/DP-italic.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+html {
+  font-family: dp, sans-serif;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  overflow-x: hidden;
+}

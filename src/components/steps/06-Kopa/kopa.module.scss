@@ -1,0 +1,47 @@
+@use '../../../const/index.scss' as screen;
+
+.header {
+  font-size: 42px;
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+  .firstLetter {
+    display: inline-block;
+    width: 67px;
+    text-align: center;
+    margin-right: 16px;
+    border: {
+      width: 2px;
+      style: dashed;
+      radius: 50%;
+    }
+  }
+}
+
+.label {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.body {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.textArea {
+  flex: 1;
+  resize: none;
+  width: 100%;
+  border: none;
+  border-bottom: 1px dashed;
+  outline: none;
+  background-color: #e0dbf3;
+  padding: 5px;
+  overflow: hidden;
+  font: {
+    size: 16px;
+    family: dp, sans-serif;
+  }
+  &::placeholder {
+    color: #75727e;
+  }
+}

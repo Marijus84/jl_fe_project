@@ -1,0 +1,29 @@
+.container {
+  padding-top: 20px;
+}
+.desktop {
+  width: 155px;
+}
+
+.mobile {
+  height: 30px;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topDecoration {
+  background-image: url('/assets/images/line_corner_desktop.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33%;
+  height: 33%;
+  z-index: -1;
+}

@@ -1,0 +1,14 @@
+.testHeader {
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
+
+.bg {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .bg {
+    display: block;
+  }
+}

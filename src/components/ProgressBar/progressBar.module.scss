@@ -1,0 +1,53 @@
+@use '../../const/index.scss' as screen;
+
+.progressBar {
+  width: max-content;
+  margin: 0 auto 50px;
+  display: flex;
+
+  .container {
+    display: flex;
+
+    .circleContainer {
+      .label {
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #6a5aa5;
+        height: 40px;
+        font-family: 'dp-bold';
+        position: relative;
+        opacity: 0;
+        transition: all 0.25s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          text-align: center;
+        }
+      }
+      display: flex;
+      flex-direction: column;
+      width: 46px;
+      &:hover .label {
+        opacity: 1;
+      }
+
+      .notCompletedLabel {
+        color: #776aa6;
+      }
+    }
+
+    .line {
+      height: min-content;
+      border-bottom: 1px solid #6e5faa;
+      width: 20px;
+      margin: auto 0 15px;
+    }
+  }
+}
+
+.mobileProgressBar {
+  background-color: #e0dbf3;
+  border-radius: 5px;
+  margin: 20px 24px 36px;
+}

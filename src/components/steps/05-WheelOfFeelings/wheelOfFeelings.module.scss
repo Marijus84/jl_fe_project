@@ -1,0 +1,24 @@
+.emotion {
+  cursor: pointer;
+}
+
+.wheelContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.textInput {
+  border: none;
+  border-bottom: 1px dashed;
+  outline: none;
+  background-color: #bdb5da;
+  padding: 5px;
+  width: calc(100% - 2rem);
+  font: {
+    size: 16px;
+    family: dp, sans-serif;
+  }
+  &::placeholder {
+    color: #75727e;
+  }
+}
